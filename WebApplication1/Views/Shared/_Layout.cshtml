@@ -29,7 +29,7 @@
     <!-- ======= MAIN STYLES ======= -->
     <link rel="stylesheet" href="~/assets/css/style.css">
     <!-- ======= END MAIN STYLES ======= -->
-
+ 
 </head>
 
 <body>
@@ -92,12 +92,12 @@
                                     <li class="d-none d-lg-flex">
                                         <!-- Main Header Time -->
                                         <div class="main-header-date-time text-right">
-                                            <h3 class="time">
-                                                <span id="hours">21</span>
-                                                <span id="point">:</span>
-                                                <span id="min">06</span>
-                                            </h3>
+                                            
                                             <span class="date"><span id="date">Tue, 12 October 2019</span></span>
+                                        <h3 class="time">
+                                            <span> @DateTime.Now.Hour :</span>
+                                            <span> @DateTime.Now.Minute </span>
+                                        </h3>
                                         </div>
                                         <!-- End Main Header Time -->
                                     </li>
@@ -130,43 +130,43 @@
                     <!-- Nav -->
                     <ul class="nav">
                         <li class="nav-category">User</li>
-                        <li class="active">
+                        <li>
                             <a asp-action="Index" asp-controller="Home">
-                                <i class="icofont-price"></i>
-                                <span class="link-title">Ana Sayfa</span>
+                                <i class="icofont-building"></i>
+                                <span class="link-title">Home</span>
                             </a>
                         </li>
-                        <li class="active">
+                        <li>
                             <a asp-action="Shop" asp-controller="Home">
                                 <i class="icofont-price"></i>
                                 <span class="link-title">Shop</span>
                             </a>
                         </li>
                         <li class="nav-category">Admin</li>
-                        <li class="active">
-                            <a href="index.html">
-                                <i class="icofont-pie-chart"></i>
-                                <span class="link-title">Panel</span>
+                        <li>
+                            <a asp-action="Dashboard" asp-controller="Home">
+                                <i class="icofont-dashboard-web"></i>
+                                <span class="link-title">Dashboard</span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <i class="icofont-shopping-cart"></i>
+                                <i class="icofont-listing-box"></i>
                                 <span class="link-title">To Do</span>
                             </a>
 
                             <!-- Sub Menu -->
                             <ul class="nav sub-menu">
-                                <li><a href="pages/ecommerce/ecommerce.html">To Do</a></li>
-                                <li><a href="pages/ecommerce/ecommerce2.html">To Do Update</a></li>
+                                <li><a asp-action="ToDo" asp-controller="Home">To Do</a></li>
+                                <li><a asp-action="ToDoUp" asp-controller="Home">To Do Update</a></li>
                                 
                             </ul>
                             <!-- End Sub Menu -->
                         </li>
                         <li>
-                            <a href="pages/pages/price.html">
-                                <i class="icofont-price"></i>
-                                <span class="link-title">Ürünler</span>
+                            <a asp-action="UserOp" asp-controller="Home">
+                                <i class="icofont-address-book"></i>
+                                <span class="link-title">User Operations</span>
                             </a>
                         </li>
                         
@@ -185,7 +185,7 @@
         <!-- End Main Wrapper -->
         <!-- Footer -->
         <footer class="footer">
-            Dashmin © 2020 created by <a href="https://www.themelooks.com/"> ThemeLooks</a>
+            Bora Kaygusuz © 2020 created by <a href="..."> !</a>
         </footer>
         <!-- End Footer -->
     </div>
@@ -199,6 +199,10 @@
     <!-- ======= BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS ======= -->
     <script src="~/assets/plugins/apex/apexcharts.min.js"></script>
     <script src="~/assets/plugins/apex/custom-apexcharts.js"></script>
+    <script src="~/assets/plugins/swiper/swiper-bundle.min.js"></script>
+    <script src="~/assets/plugins/swiper/swiper.js"></script>
+    <link rel="stylesheet" href="../../assets/plugins/swiper/swiper-bundle.min.css">
+
     <!-- ======= End BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS ======= -->
 </body>
 

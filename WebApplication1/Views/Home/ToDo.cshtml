@@ -1,0 +1,300 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="col-12">
+    <!-- Card -->
+    <div class="card todo-list mb-30">
+        <div class="card-body p-0">
+            <!-- Todo Single -->
+            <div class="single-row border-bottom pt-3 pb-2">
+                <div class="d-flex justify-content-between align-items-start mb-2">
+                    <div class="">
+                        <h4 class="card-title">Today To Do List</h4>
+                        <p class="card-text font-14 bold">
+                            Saturday, <br />
+                            12 October 2019
+                        </p>
+                    </div>
+
+                    <div class="d-flex align-items-center">
+                        <a href="pages/apps/todolist/add-new.html" class="btn-circle">
+                            <img src="~/assets/img/svg/plus_white.svg" alt="" class="svg">
+                        </a>
+
+                        <div class="dropdown-button">
+                            <a href="#" class="d-flex align-items-center" data-toggle="dropdown">
+                                <div class="menu-icon style--two justify-content-center mr-0">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a href="#">Daily</a>
+                                <a href="#">Sort By</a>
+                                <a href="#">Monthly</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Todo Single -->
+            <!-- Todo Single -->
+            <div class="single-row border-bottom pt-3 pb-3">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex position-relative">
+                        <!-- Custom Checkbox -->
+                        <label class="custom-checkbox">
+                            <input type="checkbox" checked>
+                            <span class="checkmark"></span>
+                        </label>
+                        <!-- End Custom Checkbox -->
+                        <!-- Todo Text -->
+                        <div class="todo-text line-through">
+                            <p class="card-text mb-1">For detracty charmed add talking age. Shy resolution instrument unreserved man few.</p>
+                            <p class="text-warning font-12 mb-0">Urgent Not Important</p>
+                        </div>
+                        <!-- End Todo Text -->
+                    </div>
+
+                    <div class="d-flex">
+                        <!-- Assign To -->
+                        <div class="assign_to">
+                            <img src="~/assets/img/svg/Info.svg" alt="" class="svg mr-2 mb-1">
+                            <div class="assign-content">
+                                <div class="font-12 text-warning">Back-End</div>
+                                <img src="~/assets/img/avatar/info-avatar.png" alt="" class="assign-avatar">
+                            </div>
+                        </div>
+                        <!-- End Assign To -->
+                        <!-- Drag Icon -->
+                        <img src="~/assets/img/svg/dragicon.svg" alt="" class="svg">
+                        <!-- End Drag Icon -->
+                        <!-- Dropdown Button -->
+                        <div class="dropdown-button">
+                            <a href="#" class="d-flex align-items-center" data-toggle="dropdown">
+                                <div class="menu-icon style--two w-14 mr-0">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a href="#">Daily</a>
+                                <a href="#">Sort By</a>
+                                <a href="#">Monthly</a>
+                            </div>
+                        </div>
+                        <!-- End Dropdown Button -->
+                    </div>
+                </div>
+            </div>
+            <!-- End Todo Single -->
+            <!-- Todo Single -->
+            <div class="single-row border-bottom pt-3 pb-3">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex position-relative">
+                        <!-- Custom Checkbox -->
+                        <label class="custom-checkbox">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <!-- End Custom Checkbox -->
+                        <!-- Todo Text -->
+                        <div class="todo-text">
+                            <p class="card-text mb-1">Way sentiments two indulgence uncommonly own.</p>
+                            <p class="text-danger font-12 mb-0">Urgent And Important</p>
+                        </div>
+                        <!-- End Todo Text -->
+                    </div>
+
+                    <div class="d-flex">
+                        <!-- Assign To -->
+                        <div class="assign_to">
+                            <img src="~/assets/img/svg/Info.svg" alt="" class="svg mr-2 mb-1">
+                            <div class="assign-content">
+                                <div class="font-12 text-warning">Back-End</div>
+                                <img src="~/assets/img/avatar/info-avatar.png" alt="" class="assign-avatar">
+                            </div>
+                        </div>
+                        <!-- End Assign To -->
+                        <!-- Drag Icon -->
+                        <img src="~/assets/img/svg/dragicon.svg" alt="" class="svg">
+                        <!-- End Drag Icon -->
+                        <!-- Dropdown Button -->
+                        <div class="dropdown-button">
+                            <a href="#" class="d-flex align-items-center" data-toggle="dropdown">
+                                <div class="menu-icon style--two w-14 mr-0">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a href="#">Daily</a>
+                                <a href="#">Sort By</a>
+                                <a href="#">Monthly</a>
+                            </div>
+                        </div>
+                        <!-- End Dropdown Button -->
+                    </div>
+                </div>
+            </div>
+            <!-- End Todo Single -->
+            <!-- Todo Single -->
+            <div class="single-row border-bottom pt-3 pb-3">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex position-relative">
+                        <!-- Custom Checkbox -->
+                        <label class="custom-checkbox">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <!-- End Custom Checkbox -->
+                        <!-- Todo Text -->
+                        <div class="todo-text">
+                            <p class="card-text mb-1">Donec dapibus mauris id odio ornare tempus amet.</p>
+                            <p class="text-success font-12 mb-0">Not Urgent Or Important</p>
+                        </div>
+                        <!-- End Todo Text -->
+                    </div>
+
+                    <div class="d-flex">
+                        <!-- Assign To -->
+                        <div class="assign_to">
+                            <img src="~/assets/img/svg/Info.svg" alt="" class="svg mr-2 mb-1">
+                            <div class="assign-content">
+                                <div class="font-12 text-warning">Back-End</div>
+                                <img src="~/assets/img/avatar/info-avatar.png" alt="" class="assign-avatar">
+                            </div>
+                        </div>
+                        <!-- End Assign To -->
+                        <!-- Drag Icon -->
+                        <img src="~/assets/img/svg/dragicon.svg" alt="" class="svg">
+                        <!-- End Drag Icon -->
+                        <!-- Dropdown Button -->
+                        <div class="dropdown-button">
+                            <a href="#" class="d-flex align-items-center" data-toggle="dropdown">
+                                <div class="menu-icon style--two w-14 mr-0">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a href="#">Daily</a>
+                                <a href="#">Sort By</a>
+                                <a href="#">Monthly</a>
+                            </div>
+                        </div>
+                        <!-- End Dropdown Button -->
+                    </div>
+                </div>
+            </div>
+            <!-- End Todo Single -->
+            <!-- Todo Single -->
+            <div class="single-row border-bottom pt-3 pb-3">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex position-relative">
+                        <!-- Custom Checkbox -->
+                        <label class="custom-checkbox">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <!-- End Custom Checkbox -->
+                        <!-- Todo Text -->
+                        <div class="todo-text">
+                            <p class="card-text mb-1">For detracty charmed add talking age. Shy resolution instrument unreserved man few.</p>
+                            <p class="text-info font-12 mb-0">Urgent Not Important</p>
+                        </div>
+                        <!-- End Todo Text -->
+                    </div>
+
+                    <div class="d-flex">
+                        <!-- Drag Icon -->
+                        <img src="~/assets/img/svg/dragicon.svg" alt="" class="svg mr-2">
+                        <!-- End Drag Icon -->
+                        <!-- Assign To -->
+                        <div class="assign_to">
+                            <img src="~/assets/img/svg/Info.svg" alt="" class="svg mb-1">
+                        </div>
+                        <!-- End Assign To -->
+                        <!-- Dropdown Button -->
+                        <div class="dropdown-button">
+                            <a href="#" class="d-flex align-items-center" data-toggle="dropdown">
+                                <div class="menu-icon style--two w-14 mr-0">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a href="#">Daily</a>
+                                <a href="#">Sort By</a>
+                                <a href="#">Monthly</a>
+                            </div>
+                        </div>
+                        <!-- End Dropdown Button -->
+                    </div>
+                </div>
+            </div>
+            <!-- End Todo Single -->
+            <!-- Todo Single -->
+            <div class="single-row pb-3 pt-3">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex position-relative">
+                        <!-- Custom Checkbox -->
+                        <label class="custom-checkbox">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <!-- End Custom Checkbox -->
+                        <!-- Todo Text -->
+                        <div class="todo-text">
+                            <p class="card-text mb-1">Way sentiments two indulgence uncommonly own.</p>
+                            <p class="text-warning font-12 mb-0">Urgent Not Important</p>
+                        </div>
+                        <!-- End Todo Text -->
+                    </div>
+
+                    <div class="d-flex">
+                        <!-- Drag Icon -->
+                        <img src="~/assets/img/svg/dragicon.svg" alt="" class="svg mr-2">
+                        <!-- End Drag Icon -->
+                        <!-- Assign To -->
+                        <div class="assign_to">
+                            <img src="~/assets/img/svg/Info.svg" alt="" class="svg mb-1">
+                        </div>
+                        <!-- End Assign To -->
+                        <!-- Dropdown Button -->
+                        <div class="dropdown-button">
+                            <a href="#" class="d-flex align-items-center" data-toggle="dropdown">
+                                <div class="menu-icon style--two w-14 mr-0">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a href="#">Daily</a>
+                                <a href="#">Sort By</a>
+                                <a href="#">Monthly</a>
+                            </div>
+                        </div>
+                        <!-- End Dropdown Button -->
+                    </div>
+                </div>
+            </div>
+            <!-- End Todo Single -->
+        </div>
+    </div>
+    <!-- End Card -->
+</div>
+                </div>
+            </div>
+        </div>

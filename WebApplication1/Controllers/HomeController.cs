@@ -1,24 +1,46 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using WebApplication1.Models;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        
+      
+       
+        public IActionResult Index()
         {
-            _logger = logger;
+
+            return View();
         }
 
-        public IActionResult Index()
+        
+
+        public IActionResult Shop()
         {
             return View();
         }
 
-        public IActionResult Shop()
+        public IActionResult ToDo()
+        {
+            return View();
+        }
+
+        public IActionResult Dashboard()
+        {
+            return View();
+        }
+
+        public IActionResult UserOp()
+        {
+
+            return View();
+        }
+
+        public IActionResult ToDoUp()
         {
             return View();
         }
